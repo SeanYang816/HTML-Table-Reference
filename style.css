@@ -1,0 +1,41 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1366px;
+    padding: 20px 50px;
+}
+
+h1{
+    margin: 40px 0;
+    text-align: center;
+}
+h2{
+    margin: 20px 0;
+    text-align: center;
+}
+table{
+    margin: 0 auto 50px;
+}
+thead{
+    background-color: rgb(0, 104, 202);
+}
+tbody{
+    background-image: linear-gradient(to right,hsla(176,100%, 76.7%, .2),hsla(237,97%,73.9%, .2));
+}
+th,td{
+    padding: 20px;
+    min-width: 140px;
+    
+}
+tr>th:first-child, tr>td:first-child{
+    min-width: 120px;
+}
+th{
+    color: white;
+}
